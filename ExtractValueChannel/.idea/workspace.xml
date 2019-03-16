@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="ExtractValueChannel" targetName="ExtractValueChannel" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d17c7700-6a8d-44e1-aa9b-738564e4e09b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1513508407">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="3482" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="3482" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ExtractValueChannel (disassembly)" value="13" />
+          <entry key="cpp" value="1" />
+          <entry key="h" value="2" />
+          <entry key="hpp" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Disassembly" value="13" />
+          <entry key="ObjectiveC" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-970">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/opencv2/core/matx.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6375">
+              <caret line="425" column="29" selection-start-line="425" selection-start-column="29" selection-end-line="425" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/opencv2/imgproc.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68595">
+              <caret line="4573" column="44" selection-start-line="4573" selection-start-column="34" selection-end-line="4573" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getCamera</find>
+      <find>\#include \&lt;iostream\&gt;\n\#include \&lt;fstream\&gt;\n\n\#include \&lt;opencv2\/core\/utility\.hpp\&gt;\n\#include \&quot;opencv2\/video\.hpp\&quot;\n\#include \&quot;opencv2\/imgcodecs\.hpp\&quot;\n\#include \&quot;opencv2\/highgui\.hpp\&quot;\n\nusing namespace cv\;\nusing namespace std\;\n\nint main\(\)\n\{\n    Mat img\;\n    img\=imread\(\&quot;\/home\/lijiayi\/CLionProjects\/ExtractValueChannel\/5\.jpg\&quot;\)\;\n    namedWindow\(\&quot;Source\&quot;\,WINDOW_NORMAL\)\;\n    imshow\(\&quot;Source\&quot;\, img\)\;\n    waitKey\(0\)\;\n    Mat grayImg\, hsvImg\,binImg\;\n    cvtColor\(img\, grayImg\, CV_BGR2GRAY\)\;\n    cvtColor\(img\, hsvImg\, CV_BGR2HSV\)\;\n    uchar\* grayDataPtr \= grayImg\.data\;\n    uchar\* hsvDataPtr \= hsvImg\.data\;\n    for \(int i \= 0\; i \&lt; img\.rows\; i\+\+\)\n    \{\n        for \(int j \= 0\; j \&lt; img\.cols\; j\+\+\)\n        \{\n            const int hi \= i\*img\.cols\*3 \+ j\*3\,\n                    gi \= i\*img\.cols \+ j\;\n            grayDataPtr\[gi\] \= hsvDataPtr\[hi \+ 2\]\;\n        \}\n    \}\n    namedWindow\(\&quot;V\-channel\&quot;\,WINDOW_NORMAL\)\;\n    imshow\(\&quot;V\-channel\&quot;\, grayImg\)\;\n    waitKey\(0\)\;\n    return 0\;\n\}</find>
+      <find>mode</find>
+      <find>contours</find>
+      <find>RetrievalModes</find>
+      <find>findContours</find>
+      <find>imageContours</find>
+      <find>imwrite</find>
+      <find>LineTypes</find>
+      <find>imgLines</find>
+      <find>newshape</find>
+      <find>RotatedRect</find>
+      <find>rectImg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ExtractValueChannel</replace>
+      <replace>imgContours</replace>
+      <replace>linesImg</replace>
+      <replace>t_contours</replace>
+      <replace>myRotatedRect</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="385" />
+    <option name="y" value="24" />
+    <option name="width" value="1394" />
+    <option name="height" value="948" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UndistortionTst" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ExtractValueChannel">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtractValueChannel" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ExtractValueChannel" TARGET_NAME="ExtractValueChannel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ExtractValueChannel" RUN_TARGET_NAME="ExtractValueChannel">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.ExtractValueChannel" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d17c7700-6a8d-44e1-aa9b-738564e4e09b" name="Default Changelist" comment="" />
+      <created>1537328027097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537328027097</updated>
+      <workItem from="1537328028959" duration="3087000" />
+      <workItem from="1537363619842" duration="1500000" />
+      <workItem from="1537426437897" duration="7775000" />
+      <workItem from="1537597783436" duration="6878000" />
+      <workItem from="1537606354681" duration="12808000" />
+      <workItem from="1537686348196" duration="26423000" />
+      <workItem from="1538029468362" duration="3271000" />
+      <workItem from="1538055044646" duration="7051000" />
+      <workItem from="1538231592200" duration="7788000" />
+      <workItem from="1538282065182" duration="252000" />
+      <workItem from="1538915732370" duration="1367000" />
+      <workItem from="1539234315619" duration="31000" />
+      <workItem from="1539436866857" duration="724000" />
+      <workItem from="1539855344034" duration="1636000" />
+      <workItem from="1540534676714" duration="1639000" />
+      <workItem from="1540544635753" duration="1273000" />
+      <workItem from="1541675602047" duration="599000" />
+      <workItem from="1542015323807" duration="584000" />
+      <workItem from="1542016406763" duration="27000" />
+      <workItem from="1542016727407" duration="5756000" />
+      <workItem from="1542093045011" duration="2653000" />
+      <workItem from="1542264891307" duration="1804000" />
+      <workItem from="1542280200585" duration="1463000" />
+      <workItem from="1542783353004" duration="1967000" />
+      <workItem from="1542803846575" duration="1721000" />
+      <workItem from="1542807279273" duration="1996000" />
+      <workItem from="1542809356845" duration="31000" />
+      <workItem from="1544703336862" duration="944000" />
+      <workItem from="1546521150182" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103084000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20418271" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39916405" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" x="101" y="266" width="933" height="1028" id="Run" order="5" weight="0.38246042" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3276492" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/include/opencv2/core/cvdef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="207" column="8" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="195" column="10" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-974">
+          <caret line="1139" column="10" selection-start-line="1139" selection-start-column="10" selection-end-line="1139" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/opencv/opencv-3.4.3/modules/highgui/src/window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="496" column="17" selection-start-line="496" selection-start-column="17" selection-end-line="496" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/matx.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6375">
+          <caret line="425" column="29" selection-start-line="425" selection-start-column="29" selection-end-line="425" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/imgproc.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68595">
+          <caret line="4573" column="44" selection-start-line="4573" selection-start-column="34" selection-end-line="4573" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

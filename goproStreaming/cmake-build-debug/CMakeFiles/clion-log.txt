@@ -1,0 +1,9 @@
+/opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lijiayi/CLionProjects/goproStreaming
+-- Found OpenCV: /usr/local (found version "3.4.3") 
+-- OpenCV library status:
+--     version: 3.4.3
+--     libraries: opencv_core;opencv_photo;opencv_videostab;opencv_highgui;opencv_calib3d;opencv_features2d;opencv_imgproc;opencv_objdetect;opencv_flann;opencv_superres;opencv_ml;opencv_shape;opencv_video;opencv_dnn;opencv_viz;opencv_stitching;opencv_videoio;opencv_imgcodecs
+--     include path: /usr/local/include;/usr/local/include/opencv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lijiayi/CLionProjects/goproStreaming/cmake-build-debug

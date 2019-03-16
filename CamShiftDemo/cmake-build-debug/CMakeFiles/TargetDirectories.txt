@@ -1,0 +1,3 @@
+/home/lijiayi/CLionProjects/CamShiftDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lijiayi/CLionProjects/CamShiftDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lijiayi/CLionProjects/CamShiftDemo/cmake-build-debug/CMakeFiles/CamShiftDemo.dir

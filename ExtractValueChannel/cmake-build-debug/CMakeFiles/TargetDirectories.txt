@@ -1,0 +1,3 @@
+/home/lijiayi/CLionProjects/ExtractValueChannel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lijiayi/CLionProjects/ExtractValueChannel/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lijiayi/CLionProjects/ExtractValueChannel/cmake-build-debug/CMakeFiles/ExtractValueChannel.dir
